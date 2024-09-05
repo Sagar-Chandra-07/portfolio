@@ -19,6 +19,9 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
     "Task ManagerDesc": "Building a simple Task Management Application that allows users to create, read, update, and delete tasks. ",
     "Task ManagerWebsite": "https://task-manager-ten-ochre.vercel.app/",
 
+    "PortfolioDesc": "It is a personal website built with React.js to showcase your skills, projects, and experience. It features sections like About Me, Projects, and Contact, with responsive design and reusable components for easy customization.",
+    "PortfolioWebsite": "https://portfolio-opal-six-77.vercel.app/",
+
   }
 
 

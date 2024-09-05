@@ -4,6 +4,7 @@ import TaskManager from '../images/Task.jpg';
 import ExpenseManagement from '../images/expense management.jpg';
 import SentimentAnalysis from '../images/twitter.jpg';
 import MaskDetector from '../images/mask.jpg';
+import Portfolio from '../images/Portfolio.jpg';
 import Layout from '../Components/AppLayout/Layout';
 
 
@@ -12,6 +13,7 @@ const Projects = () => {
     <Layout>
       <h1 className='projectHeading'>My <b>Projects</b></h1>
       <div className='project'>
+        <ProjectBox projectPhoto={Portfolio} projectName="Portfolio" />
         <ProjectBox projectPhoto={TaskManager} projectName="Task Manager" />
         <ProjectBox projectPhoto={ExpenseManagement} projectName="Expenditure Management System" />
         <ProjectBox projectPhoto={MaskDetector} projectName="Mask Detector" />
